@@ -1,12 +1,60 @@
-# React + Vite
+# React + Leaflet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Cargar markers
+Los Markers se cargan desde un archvo JSON en formato:
+``` 
+[
+  {
+    "nombre": "Iglesia de San Francisco",
+    "coordenadas": { "lat": -29.90453333, "lng": -71.24975556 },
+    "direccion": "Avenida Balmaceda s/n, esquina Eduardo de la Barra"
+  },
+]
+```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## GeoJson
+Los sectores se cargan desde archivo en formato GeoJSON
+```
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -71.25254953221055,
+              -29.902172458233274
+            ],
+            [
+              -71.25264866903777,
+              -29.902882587519038
+            ],
+            [
+              -71.25272693495386,
+              -29.903325850366855
+            ],
+            [
+              -71.2513494548311,
+              -29.90329871188181
+            ],
+            [
+              -71.25122422936535,
+              -29.902113657492514
+            ],
+            [
+              -71.25254953221055,
+              -29.902172458233274
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
+```
