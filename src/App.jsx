@@ -6,6 +6,11 @@ import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 
+import direcciones  from './assets/direccion.json'
+import geojsonData from './assets/plaza.json'
+
+import './App.css'
+
 delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
@@ -13,11 +18,6 @@ L.Icon.Default.mergeOptions({
   iconUrl: markerIcon,
   shadowUrl: markerShadow,
 });
-
-import direcciones  from './assets/direccion.json'
-import geojsonData from './assets/plaza.json'
-
-import './App.css'
 
 function App() {  
   

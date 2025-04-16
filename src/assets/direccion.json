@@ -7,46 +7,46 @@
   {
     "nombre": "Catedral de La Serena (Nuestra Señora de la Merced)",
     "coordenadas": { "lat": -29.90299722, "lng": -71.25098333 },
-    "direccion": "Los Carrera s/n, La Serena"
+    "direccion": "Los Carrera s/n"
   },
   {
     "nombre": "Iglesia Santa Inés",
     "coordenadas": { "lat": -29.898174, "lng": -71.252178 },
-    "direccion": "Diego de Almagro 282, La Serena"
+    "direccion": "Diego de Almagro 282"
   },
   {
     "nombre": "Iglesia Santo Domingo",
     "coordenadas": { "lat": -29.903538, "lng": -71.253746 },
-    "direccion": "Gregorio Cordovez 235, La Serena"
+    "direccion": "Gregorio Cordovez 235"
   },
   {
     "nombre": "Iglesia San Agustín",
     "coordenadas": { "lat": -29.90196389, "lng": -71.24661111 },
-    "direccion": "Arturo Prat 690, La Serena"
+    "direccion": "Arturo Prat 690"
   },
   {
     "nombre": "Iglesia La Merced",
     "coordenadas": { "lat": -29.901865, "lng": -71.249391 },
-    "direccion": "Avenida Balmaceda 391, La Serena"
+    "direccion": "Avenida Balmaceda 391"
   },
   {
     "nombre": "Capilla del Hospital San Juan de Dios",
     "coordenadas": { "lat": -29.908714, "lng": -71.249816 },
-    "direccion": "Balmaceda 915, La Serena"
+    "direccion": "Balmaceda 915"
   },
   {
     "nombre": "Iglesia de la Divina Providencia",
     "coordenadas": { "lat": -29.90222222, "lng": -71.24083333 },
-    "direccion": "Justo Donoso 420, esquina Cantournet, La Serena"
+    "direccion": "Justo Donoso 420, esquina Cantournet"
   },
   {
     "nombre": "Iglesia de las Carmelitas Descalzas",
     "coordenadas": { "lat": -29.9045, "lng": -71.2435 },
-    "direccion": "Calle Gandarillas esquina Manuel Rodríguez, La Serena"
+    "direccion": "Calle Gandarillas esquina Manuel Rodríguez"
   },
   {
     "nombre": "Capilla Santa Lucía",
     "coordenadas": { "lat": -29.90461, "lng": -71.24297 },
-    "direccion": "Manuel Rodríguez esquina Las Casas, La Serena"
+    "direccion": "Manuel Rodríguez esquina Las Casas"
   }
 ]
